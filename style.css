@@ -156,12 +156,18 @@ body {
     }
   }
 
-#footer-icons{ 
+.footer-icons{ 
     width: 100%;
     align-items: center;
 }
-  .footer-icons .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+.footer-icons .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
   
-  .footer-icons p.footer-links a:hover{text-decoration:underline;} 
+.footer-icons p.footer-links a:hover{text-decoration:underline;} 
  
-  }
+.footer {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  font-size:150px;
+ 
